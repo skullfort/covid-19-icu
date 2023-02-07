@@ -23,8 +23,8 @@ To sum up: ICU beds occupancy is a good indicator of the seriousness of the pand
 ______________________________________________________________________
 
 Breakdown of Tasks:
--Feb 2, 2023: brainstorm ideas
--Feb 6, 2023: finalize datasets and questions
--Feb 9, 2023: finalize results and conclusions
--Feb 13,2023: finish powerpoint and presentation
--Feb 14, 2023: PRESENTATION DAY
+- Feb 2, 2023: brainstorm ideas
+- Feb 6, 2023: finalize datasets and questions
+- Feb 9, 2023: finalize results and conclusions
+- Feb 13,2023: finish powerpoint and presentation
+- Feb 14, 2023: PRESENTATION DAY
