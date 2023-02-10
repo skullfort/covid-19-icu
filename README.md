@@ -12,6 +12,7 @@ Datasets:
 
 https://data.ontario.ca/en/dataset/availability-of-adult-icu-beds-and-occupancy-for-covid-related-critical-illness-crci
 https://data.ontario.ca/en/dataset/covid-19-cases-in-hospital-and-icu-by-ontario-health-region
+https://www.ontariohealth.ca/about-us/our-programs/ontario-health-regions
 _____________________________________________________________________
 
 Questions:
