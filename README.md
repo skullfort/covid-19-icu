@@ -1,21 +1,21 @@
 # Covid Related ICU Occupancy in Ontario
 
-Group Members: Carly Yiao, Helin Kanya, Hardik Gehlot, Mingyao Gu
+**Group Members**: Carly Yiao, Helin Kanya, Hardik Gehlot, Mingyao Gu
 _____________________________________________________________________
 
-Overview:
+**Overview:**
 
 ICU beds occupancy is a good indicator of the seriousness of the pandemic and how well prepared Ontario healthcare was to the response of the pandemic of this scale.
 _____________________________________________________________________
 
-Datasets:
+**Datasets:**
 
 https://data.ontario.ca/en/dataset/availability-of-adult-icu-beds-and-occupancy-for-covid-related-critical-illness-crci
 https://data.ontario.ca/en/dataset/covid-19-cases-in-hospital-and-icu-by-ontario-health-region
 https://www.ontariohealth.ca/about-us/our-programs/ontario-health-regions
 _____________________________________________________________________
 
-Questions:
+**Questions:**
 
 Pediactrics: Children, Adolescence, and Teens (Under 18)
 
@@ -37,7 +37,7 @@ WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are usin
 - different regions have similar spikes in ICU beds being used
 ______________________________________________________________________
 
-Breakdown of Tasks:
+**Breakdown of Tasks:**
 
 - Feb 2, 2023: brainstorm ideas
 - Feb 6, 2023: finalize datasets and questions
