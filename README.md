@@ -15,9 +15,21 @@ https://data.ontario.ca/en/dataset/covid-19-cases-in-hospital-and-icu-by-ontario
 https://www.ontariohealth.ca/about-us/our-programs/ontario-health-regions
 _____________________________________________________________________
 
-**Questions:**
+**Questions and Definitions:**
+
+1. How does the occupancy change overtime in Ontario?
+
+2. Is the occupancy changes the same for adults and underaged people in Ontario?
+
+3. Were there enough ICU beds during peak times and were hospitals equiped enough during the fluctuating pandemic situation?
+
+5. Do different regions in Ontario follow certain trends or have similiarities/differences in data?
 
 Pediactrics: Children, Adolescence, and Teens (Under 18)
+
+_____________________________________________________________________
+
+**Analysis:**
 
 WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are using, Explanation of what the graph is showing, summarize findings (supported with numbers), and related statistical analysis from lessons (e.g., aggregation, correlation, comparison, summary statistics, sentiment analysis, and  timeseries analysis)
 
