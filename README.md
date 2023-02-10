@@ -24,17 +24,17 @@ Pediactrics: Children, Adolescence, and Teens (Under 18)
 1. How does the occupancy change overtime in Ontario?
 
 2. Is the occupancy changes the same for adults and underaged people in Ontario?
--correlation graph
--adult ICU occupancy have more spikes than pediatrics
--underaged people for ICU occupancy remained at a relative slope
+- correlation graph
+- adult ICU occupancy have more spikes than pediatrics
+- underaged people for ICU occupancy remained at a relative slope
 
 3. Were there enough ICU beds during peak times and were hospitals equiped enough during the fluctuating pandemic situation?
--line graph
--the underaged hospital equipment dipped below the required ICU beds, meaning that hospitals were not well equiped during that dip in the graph
+- line graph
+- the underaged hospital equipment dipped below the required ICU beds, meaning that hospitals were not well equiped during that dip in the graph
 
 4. Do different regions in Ontario follow certain trends or have similiarities/differences in data?
--pie chart 
--different regions have similar spikes in ICU beds being used
+- pie chart 
+- different regions have similar spikes in ICU beds being used
 ______________________________________________________________________
 
 Breakdown of Tasks:
