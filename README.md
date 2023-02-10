@@ -50,6 +50,7 @@ WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are usin
 ______________________________________________________________________
 
 **Conclusion:**
+After conducting this study, we think that...
 
 ______________________________________________________________________
 
