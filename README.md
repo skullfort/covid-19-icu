@@ -19,7 +19,7 @@ Questions:
 
 Pediactrics: Children, Adolescence, and Teens (Under 18)
 
-- WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are using, Explanation of what the graph is showing, summarize findings (supported with numbers), and related statistical analysis from lessons (e.g., aggregation, correlation, comparison, summary statistics, sentiment analysis, and  timeseries analysis)
+WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are using, Explanation of what the graph is showing, summarize findings (supported with numbers), and related statistical analysis from lessons (e.g., aggregation, correlation, comparison, summary statistics, sentiment analysis, and  timeseries analysis)
 
 1. How does the occupancy change overtime in Ontario?
 
