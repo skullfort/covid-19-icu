@@ -49,7 +49,11 @@ WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are usin
 - different regions have similar spikes in ICU beds being used
 ______________________________________________________________________
 
-**Breakdown of Tasks:**
+**Conclusion:**
+
+______________________________________________________________________
+
+**Appendix: Timeline of Tasks**
 
 - Feb 2, 2023: brainstorm ideas
 - Feb 6, 2023: finalize datasets and questions
