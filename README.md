@@ -17,18 +17,24 @@ _____________________________________________________________________
 
 Questions:
 
+Pediactrics: Children, Adolescence, and Teens (Under 18)
+
 - WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are using, Explanation of what the graph is showing, summarize findings (supported with numbers), and related statistical analysis from lessons (e.g., aggregation, correlation, comparison, summary statistics, sentiment analysis, and  timeseries analysis)
 
 1. How does the occupancy change overtime in Ontario?
 
-2. Is the occupancy changes the same for adults and children in Ontario?
+2. Is the occupancy changes the same for adults and underaged people in Ontario?
 -correlation graph
+-adult ICU occupancy have more spikes than pediatrics
+-underaged people for ICU occupancy remained at a relative slope
 
 3. Were there enough ICU beds during peak times and were hospitals equiped enough during the fluctuating pandemic situation?
 -line graph
+-the underaged hospital equipment dipped below the required ICU beds, meaning that hospitals were not well equiped during that dip in the graph
 
 4. Do different regions in Ontario follow certain trends or have similiarities/differences in data?
 -pie chart 
+-different regions have similar spikes in ICU beds being used
 ______________________________________________________________________
 
 Breakdown of Tasks:
