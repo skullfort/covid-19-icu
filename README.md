@@ -1,36 +1,24 @@
 # COVID-19 in Ontario: A Glance from the ICUs
 
-**Group Members**: Carly Yiao, Helin Kanya, Hardik Gehlot, Mingyao Gu
-_____________________________________________________________________
+**Group 2 Members**: Carly Yiao, Helin Kanya, Hardik Gehlot, Mingyao Gu
 
-**Overview:**
+## Introduction
 
 ICU beds occupancy is a good indicator of the seriousness of the pandemic and how well prepared Ontario healthcare was to the response of the pandemic of this scale.
-_____________________________________________________________________
 
-**Datasets:**
+This dataset comes from Ontario Data Catalogue and it compiles daily counts of patients (both COVID-related and non-COVID-related) in adult and pediatric ICU beds and the number of adult and pediatric ICU beds that are unoccupied. Pediactrics: Children, Adolescence, and Teens (Under 18)
 
-https://data.ontario.ca/en/dataset/availability-of-adult-icu-beds-and-occupancy-for-covid-related-critical-illness-crci
-https://data.ontario.ca/en/dataset/covid-19-cases-in-hospital-and-icu-by-ontario-health-region
-https://www.ontariohealth.ca/about-us/our-programs/ontario-health-regions
-https://www.publichealthontario.ca/-/media/Documents/nCoV/phm/2022/11/covid-respiratory-Illnesses-pediatric-populations-fall-2022.pdf?rev=0fd12bb2aaa84145b7470a4492746ab3&sc_lang=en
-_____________________________________________________________________
+## Objectives
 
-**Questions and Definitions:**
+1. What trends about COVID-19 in Ontario do the ICU datasets reveal?
 
-1. What kind of trends of Covid-19 overtime in Ontario?
+2. What trends can be observed about different Ontario Health regions?
 
-2. Do different regions in Ontario follow certain trends or have similiarities/differences in data?
+3. What correlations exist for ICU patients of different age groups?
 
-3. Is the occupancy changes the same for adults and underaged people in Ontario?
+4. Were there enough ICU beds for patients and how well did the hospitals respond to the fluctuating pandemic situation?
 
-4. Were there enough ICU beds during peak times and were hospitals equiped enough during the fluctuating pandemic situation?
-
-Pediactrics: Children, Adolescence, and Teens (Under 18)
-
-_____________________________________________________________________
-
-**Analysis:**
+## Analyses
 
 WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are using, Explanation of what the graph is showing, summarize findings (supported with numbers), and related statistical analysis from lessons (e.g., aggregation, correlation, comparison, summary statistics, sentiment analysis, and  timeseries analysis)
 
@@ -59,21 +47,28 @@ WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are usin
 	
 - The box plot shows that outliers in each region with Toronto having the most and North having the least outliers. The graph also….
 
-______________________________________________________________________
 
-**Conclusion:**
+## Conclusions
 After conducting this study, we think the following points
 - The hospitals across Canada were poorly ready for a large influx of hospitalization. 
 - Adult patients were more likely to form complicated covid cases and thus adults had more hospitalization rate.
 - Pediatric patients had lower hospitalization rate and thus showing more immunity against covid-19.
 - The correlation graph shows the reduction in beds for non-covid-related diseases. 
 - the other regions were seen the same spike in cases.
-______________________________________________________________________
 
-**Appendix: Timeline of Tasks**
+## References
 
-- Feb 2, 2023: brainstorm ideas
-- Feb 6, 2023: finalize datasets and questions
-- Feb 9, 2023: finalize results and conclusions
-- Feb 13,2023: finish powerpoint and presentation
-- Feb 14, 2023: PRESENTATION DAY
+1. https://data.ontario.ca/en/dataset/availability-of-adult-icu-beds-and-occupancy-for-covid-related-critical-illness-crci
+2. https://data.ontario.ca/en/dataset/covid-19-cases-in-hospital-and-icu-by-ontario-health-region
+3. https://www.ontariohealth.ca/about-us/our-programs/ontario-health-regions
+4. https://www.publichealthontario.ca/-/media/Documents/nCoV/phm/2022/11/covid-respiratory-Illnesses-pediatric-populations-fall-2022.pdf?rev=0fd12bb2aaa84145b7470a4492746ab3&sc_lang=en
+
+## Appendices
+
+A timeline of the project, including the tasks carried out and their time stamps, is shown below.
+
+- Feb 2, 2023: brainstorm ideas and set up Github collaboration
+- Feb 6, 2023: decide on datasets and objectives for the study
+- Feb 12, 2023: finalize results and conclusions
+- Feb 13,2023: complete PowerPoint slides and the README file
+- Feb 14, 2023: final presentation
