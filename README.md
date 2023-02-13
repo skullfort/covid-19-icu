@@ -13,6 +13,7 @@ _____________________________________________________________________
 https://data.ontario.ca/en/dataset/availability-of-adult-icu-beds-and-occupancy-for-covid-related-critical-illness-crci
 https://data.ontario.ca/en/dataset/covid-19-cases-in-hospital-and-icu-by-ontario-health-region
 https://www.ontariohealth.ca/about-us/our-programs/ontario-health-regions
+https://www.publichealthontario.ca/-/media/Documents/nCoV/phm/2022/11/covid-respiratory-Illnesses-pediatric-populations-fall-2022.pdf?rev=0fd12bb2aaa84145b7470a4492746ab3&sc_lang=en
 _____________________________________________________________________
 
 **Questions and Definitions:**
