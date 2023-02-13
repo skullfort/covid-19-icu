@@ -1,6 +1,9 @@
+from matplotlib import dates as mdates
+
 def set_timeline(ax):
-    ax.set_xlabel('Date')
+    '''This function sets the major ticks of the x-axis to in the form of their months and years and the minor ticks in the form of months.'''
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%m\n%Y'))
     ax.xaxis.set_minor_locator(mdates.MonthLocator())
     ax.xaxis.set_minor_formatter(mdates.DateFormatter('%m'))
+    # Pad the position of the minor ticks so that the months align with each other.
     ax.tick_params(axis='x', which='minor', pad=5)
