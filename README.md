@@ -1,4 +1,4 @@
-# Covid Related ICU Occupancy in Ontario
+# COVID-19 in Ontario: A Glance from the ICUs
 
 **Group Members**: Carly Yiao, Helin Kanya, Hardik Gehlot, Mingyao Gu
 _____________________________________________________________________
