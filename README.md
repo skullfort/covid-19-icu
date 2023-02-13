@@ -67,7 +67,7 @@ After conducting this study, we think the following points
 - Adult patients were more likely to form complicated covid cases and thus adults had more hospitalization rate.
 - Pediatric patients had lower hospitalization rate and thus showing more immunity against covid-19.
 - The correlation graph shows the reduction in beds for non-covid-related diseases. 
-- the other regions were seen the same soike in cases.
+- the other regions were seen the same spike in cases.
 ______________________________________________________________________
 
 **Appendix: Timeline of Tasks**
