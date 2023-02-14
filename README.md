@@ -43,6 +43,12 @@ WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are usin
 - In the heatmap graph, we can see that when the number of CRCI patients exceeds 200, which in reference to the time series of the adult CRCI patients corresponds to the major waves of COVID-19, there is an approximately linear relation between it and the total number of patients.
 
 - In the scatterplot, we can observe that because the number of CRCI patients in ICUs remains low over the period of investigation, there is a strong linear relation between the number of non-CRCI patients and the total number of patients. Alarmingly, there has been a steady increase of late of non-CRCI pediatric patients in ICUs related to acute respiratory illnesses observed in Ontario from September 2022 onward, particularly in young children aged 0–4 years old. The cause is multi-faceted (from Richard's personal experience, provincial shortage of pediatric medication to treat fever).
+- During the waves number of beds increased as cases increased 
+- Number of beds were always available for adults
+- Beds available for kids stayed same during till the fourth wave
+- for the second graph, number of beds added during the second and third wave were more.
+- After the third wave they removed large number of ICU beds
+-  omicron wave sahow no new beds were added. 
 	
 ## Conclusions
 After conducting this study, we think the following points
