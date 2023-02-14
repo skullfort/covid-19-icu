@@ -25,9 +25,9 @@ WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are usin
 1. What kind of trends of Covid-19 overtime in Ontario?
 - The occupancy in the data visualizations shown describes spikes, dips, and steady slopes in the occupancy change overtime in Ontario. These spikes correlate to the severity of COVID-19 symptoms and affected people rates in Ontario. The spikes are when the stricter laws of social distancing are installed. 
 
-- The first wave happened March 2020, second wave was in the beginning of 2021, third wave was the highest peak variant in may 2021, fourth wave is omicron feb 2022. 
+- These spikes correlate when stricter laws of social distancing are implemented. The first wave happened around February 2020 followed by a lockdown in Ontario on March 17, 2020. The second wave started on September 2020 with the second spike in the graph following the second lockdown effective January 14, 2021. The third wave was the highest spike with a variant of Covid in February 2021. And the fourth wave was due to Omicron on Feb 2022. 
 
-- Adults were more prone to critical covid infections which increases over the time.
+- Adults were more prone to critical covid infections which increase over time. We extracted this data from the two lines shown in this graph with pediatrics as the orange line staying at a steady slope and adult ICUs as the blue line constantly spiking. 
 
 2. Do different regions in Ontario follow certain trends or have similiarities/differences in data?
 - Regions in Ontario show that there are more ICU beds being used for the Toronto region on average throughout the timeline. On the other hand, the smallest amount is for the Central region of Ontario. This can be related to varied population total in each of the 5 regions. Another thing to take into a factor is the density of people within the specific region. For example, Toronto is more dense and more people take public transit, walk, or bike to get to their destination. This means that it is harder to social distance as compared to more dispersed density populations such as East and Centreal regions of Ontario. 
