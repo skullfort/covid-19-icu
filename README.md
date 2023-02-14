@@ -1,33 +1,51 @@
-# COVID-19 in Ontario: A Glance from the ICUs
+# COVID-19 in Ontario: A Glance from ICUs
 
-**Group 2 Members**: Carly Yiao, Helin Kanya, Hardik Gehlot, Mingyao Gu
+Collaborators: Carly Yiao, Helin Kanya, Hardik Gehlot, Mingyao Gu
 
 ## Introduction
 
-ICU bed occupancy is a good indicator of the seriousness of the pandemic and how well-prepared Ontario healthcare was to response to a pandemic of this scale.
-
-This dataset comes from Ontario Data Catalogue and it compiles daily counts of patients (both COVID-related and non-COVID-related) in adult and pediatric ICU beds and the number of adult and pediatric ICU beds that are unoccupied. Pediatrics: Children, Adolescence, and Teens (Under 18)
+This project studies COVID-19 in Ontario, Canada from the perspective of ICU occupancy, which is strongly indicative of the seriousness of the pandemic and sheds light on how well Ontario healthcare responds to a pandemic of this scale. The datasets related to ICU occupancy come from Ontario Data Catalogue. The first dataset [1](data/icu_beds.csv), with the earliest record dated May 1, 2020 and the latest Feb 2, 2023, compiles daily counts of patients in adult and pediatric ICU beds due to COVID-related critical illness (CRCI) and non-CRCI reasons as well as the number of adult and pediatric ICU beds that are unoccupied. The second dataset [2](data/region_hospital_icu_covid_data.csv), with the earliest record dated April 2, 2020 and the latest Feb 2, 2023, compiles daily snapshots of publicly reported data on COVID-19 testing in Ontario, which includes the number of patients in ICUs due to CRCI by Ontario Health (OH) regions.
 
 ## Objectives
 
+Given the scope of the data, this project aims to answer the following questions:
 1. What trends about COVID-19 in Ontario do the ICU datasets reveal?
-
 2. What trends can be observed about different Ontario Health regions?
-
 3. What correlations exist for ICU patients of different age groups?
-
 4. Were there enough ICU beds for patients and how well did the hospitals respond to the fluctuating pandemic situation?
 
 ## Analyses
 
-WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are using, Explanation of what the graph is showing, summarize findings (supported with numbers), and related statistical analysis from lessons (e.g., aggregation, correlation, comparison, summary statistics, sentiment analysis, and  time-series analysis)
+The raw data downloaded come in the form of csv files and are stored in the `data` folder. Data wrangling is done with Python and documented in [icu_beds_analysis.ipynb](analysis/icu_beds_analysis.ipynb) and [region_analysis.ipynb](analysis/region_analysis.ipynb). The figures compiled are stored in the `output` folder.
 
-1. What kind of trends of Covid-19 overtime in Ontario?
+1. What trends about COVID-19 in Ontario do the ICU datasets reveal?
+- ![correlation strength table.](output/crci_patients_by_age_group.png)
+- plot description
+    - The line plots chart the daily counts of CRCI patients in ICUs from 2020-05 to 2023-02.
+- plot features
+    - The blue line represents adult patients and the orange line pediatric patients.
+- observations
+    - There are far fewer pediatic patients compared to adults.
+    - The most prominent surges in the counts of adult patients correspond to the major waves of COVID-19, including the spread of Omicron in early 2022.
+
 - The occupancy in the data visualizations shown describes spikes, dips, and steady slopes in the occupancy change over time in Ontario. These spikes correlate to the severity of COVID-19 symptoms and affected people rates in Ontario. The spikes are when stricter laws of social distancing are installed. 
 
 - These spikes correlate when stricter laws of social distancing are implemented. The first wave happened around February 2020 followed by a lockdown in Ontario on March 17, 2020. The second wave started on September 2020 with the second spike in the graph following the second lockdown effective January 14, 2021. The third wave was the highest spike with a variant of Covid in February 2021. And the fourth wave was due to Omicron on Feb 2022. 
 
 - Adults were more prone to critical covid infections which increase over time. We extracted this data from the two lines shown in this graph with pediatrics as the orange line staying at a steady slope and adult ICUs as the blue line constantly spiking. 
+
+
+- purpose
+    - Autocorrelation measures the degree of similiarity between a given time series and a lagged version of itself over successive time intervals. It can also be understood as the tendency of a system to remain in the same state from one observation to the next.
+    - In the context of the time series of adult CRCI patients, if it exhibits autocorrelation, the count of patients at one instance of time probabilistically depends on the past daily counts.
+    - Such information is useful to ensure preparedness of health care system.
+- plot description
+    - The figure plots the autocorrelation of adult CRCI patients in ICUs over different time intervals measured in days.
+- plot features
+    - The blue region denotes the confidence interval (set to 95% by default), outside which the autocorrelation is considered strong if ACF is between 0.7 and 1.
+- observations
+    - The daily counts of adult CRCI patients displays strong autocorrelation (ACF>0.8) within a time interval of 3 weeks.
+    - No seasonality is observed.
 
 2. Do different regions in Ontario follow certain trends or have similarities/differences in data?
 - Regions in Ontario show that more ICU beds are being used for the Toronto region on average throughout the timeline. On the other hand, the smallest amount is for the Central region of Ontario. This can be related to the varied population total in each of the 5 regions. Another thing to take into a factor is the density of people within the specific region. For example, Toronto is denser and more people take public transit, walk, or bike to get to their destinations. This means that it is harder to social distance as compared to more dispersed density populations such as East and Central regions of Ontario. 
@@ -39,6 +57,22 @@ WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are usin
 - When it comes to the total sum of patients in each region, Central Ontario has the most with 29.4% of the total patients whereas the North region has the least with 4.3%. This is interesting because there are more ICU patients in total for Central Ontario probably due to the population being bigger, but when the population is evened out throughout the regions, Toronto has the highest peaks for ICU patients over time. 
 
 3. Is the occupancy changes the same for adults and underaged people in Ontario?
+- plot description
+    - This is a scatter plot of the number of adult CRCI patients versus the total number of adult patients in ICUs.
+- plot features
+    - The time stamps of each pair of data are overlayed on top in accordance with the color bar on the right-hand side.
+- observations
+    - When the number of CRCI patients exceeds 200, which in reference to the time series of the adult CRCI patients corresponds to the major waves of COVID-19, there is an approximately linear relation between it and the total number of patients.
+
+
+- plot description
+    - Switching attention to the pediatric group, this sactter plot shows the number of non-CRCI patients versus the total number of patients in ICUs.
+- plot features
+    - The time stamps of each pair of data are overlayed on top in accordance with the color bar on the right-hand side.
+- observations
+    - Because the number of CRCI patients in ICUs remains low over the period of investigation, there is a strong linear relation between the number of non-CRCI patients and the total number of patients.
+    - Alarmingly, there has been a steady increase of late of non-CRCI pediatric patients in ICUs related to acute respiratory illnesses observed in Ontario from September 2022 onward, particularly in young children aged 0–4 years old. The cause is multi-faceted (from Richard's personal experience, provincial shortage of pediatric medication to treat fever).
+
 - In the scatterplot for the “Availability of ICU beds”, we can see that there was never a shortage of available ICU beds for adults. The same cannot be said about pediatric patients. Due to the recent steady increase in non-CRCI pediatric patients in ICUS, there were 9 days last November when there were not enough ICU beds for pediatric patients. In the graph, we can see that at one point the underaged hospital was not equipped properly as seen from the dip below the required ICU beds. 
 
 - Some observations that can be made are that adult ICU occupancies have more spikes than pediatrics and that underaged people for ICU occupancy remained at a relative slope. This means that adult ICUs are better prepared than pediatrics. And there is a vast difference in how COVID-19 affected more adults than underaged people to a more critical health level. The most prominent surges in the counts of adult patients correspond to the major waves of COVID-19, including the spread of Omicron in early 2022. Overall, adult CRCI patients were always above or well above the amount of pediatric CRCI patients.
