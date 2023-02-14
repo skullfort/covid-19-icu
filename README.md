@@ -46,6 +46,7 @@ WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are usin
 - During the waves number of beds increased as cases increased 
 - Number of beds were always available for adults
 - Beds available for kids stayed same during till the fourth wave
+- There are large spike in beds for adults than the pediatric cases
 - for the second graph, number of beds added during the second and third wave were more.
 - After the third wave they removed large number of ICU beds
 -  omicron wave sahow no new beds were added. 
