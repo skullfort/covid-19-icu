@@ -69,7 +69,7 @@ The raw data downloaded come in the form of csv files and are stored in the `dat
 
 The history of COVID-19 in Ontario, including many of its waves, is mirrored in the ICU occupancy datasets. Adults were more prone to complicated COVID cases and had more ICU admissions than younger patients. While there was consistently a surplus of beds for adults, the ICUs were not always prepared for pediatric patients, especially during Nov 2022 when there was a signficant rise in non-CRCI cases. Moreover, population density played an impactful role in the spreading of the pandemic, resulting in Toronto leading in the number of CRCI patients admiited to ICUs relative to its regional population.
 
-While the datasets provide strong insight into the COVID pandemic in Ontario, further study can be carried out in investigating the role of vaccination coverage at different points of time. More in-depth time series analysis can be carried as well to reveal potential trends and seasonality to help health care services become more equipped and prepared.
+While the datasets provide strong insight into the COVID pandemic in Ontario, further study can be carried out in investigating the role of vaccination coverage at different points of time. More in-depth time series analysis can be done as well to reveal potential trends and seasonality to help health care services become more prepared.
 
 ## References
 
