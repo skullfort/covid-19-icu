@@ -4,7 +4,7 @@ Collaborators: Carly Yiao, Helin Kanya, Hardik Gehlot, Mingyao Gu
 
 ## Introduction
 
-This project studies COVID-19 in Ontario, Canada from the perspective of ICU occupancy, which is strongly indicative of the seriousness of the pandemic and sheds light on how well Ontario healthcare responds to a pandemic of this scale. The datasets related to ICU occupancy come from Ontario Data Catalogue. The first dataset [1](data/icu_beds.csv), with the earliest record dated May 1, 2020 and the latest Feb 2, 2023, compiles daily counts of patients in adult and pediatric ICU beds due to COVID-related critical illness (CRCI) and non-CRCI reasons as well as the number of adult and pediatric ICU beds that are unoccupied. The second dataset [2](data/region_hospital_icu_covid_data.csv), with the earliest record dated April 2, 2020 and the latest Feb 2, 2023, compiles daily snapshots of publicly reported data on COVID-19 testing in Ontario, which includes the number of patients in ICUs due to CRCI by Ontario Health (OH) regions.
+This project studies COVID-19 in Ontario, Canada from the perspective of ICU occupancy, which is strongly indicative of the seriousness of the pandemic and sheds light on how well Ontario healthcare responds to a pandemic of this scale. The datasets related to ICU occupancy come from Ontario Data Catalogue. The first dataset \[[1](#references)\], with the earliest record dated May 1, 2020 and the latest Feb 2, 2023, compiles daily counts of patients in adult and pediatric ICU beds due to COVID-related critical illness (CRCI) and non-CRCI reasons as well as the number of adult and pediatric ICU beds that are unoccupied. The second dataset \[[2](#references)\], with the earliest record dated April 2, 2020 and the latest Feb 2, 2023, compiles daily snapshots of publicly reported data on COVID-19 testing in Ontario, which includes the number of patients in ICUs due to CRCI by Ontario Health (OH) regions.
 
 ## Objectives
 
@@ -19,7 +19,7 @@ Given the scope of the data, this project aims to answer the following questions
 The raw data downloaded come in the form of csv files and are stored in the `data` folder. Data wrangling is done with Python and documented in [icu_beds_analysis.ipynb](analysis/icu_beds_analysis.ipynb) and [region_analysis.ipynb](analysis/region_analysis.ipynb). The figures compiled are stored in the `output` folder.
 
 1. What trends about COVID-19 in Ontario do the ICU datasets reveal?
-- ![correlation strength table.](output/crci_patients_by_age_group.png)
+![crci_patients_by_age_group](output/crci_patients_by_age_group.png)
 - plot description
     - The line plots chart the daily counts of CRCI patients in ICUs from 2020-05 to 2023-02.
 - plot features
