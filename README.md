@@ -30,9 +30,13 @@ WHAT WE NEED TO WRITE UNDER EACH QUESTION: Title, What visualization we are usin
 - Adults were more prone to critical covid infections which increases over the time.
 
 2. Do different regions in Ontario follow certain trends or have similiarities/differences in data?
-- Some observations that can be made are the adult ICU occupancies have more spikes than pediatrics and that underaged people for ICU occupancy remained at a relative slope. This means that adult ICUs are better prepared for than pediatrics. And there is a vast difference in how COVID-19 affected more adults than underaged people to a more critical health level. The most prominent surges in the counts of adult patients correspond to the major waves of COVID-19, including the spread of Omicron in early 2022. Overall, adults CRCI patients were always above or well above the amount of pediatric CRCI patients.
-
 - Regions in Ontario show that there are more ICU beds being used for the Toronto region on average throughout the timeline. On the other hand, the smallest amount is for the Central region of Ontario. This can be related to varied population total in each of the 5 regions. Another thing to take into a factor is the density of people within the specific region. For example, Toronto is more dense and more people take public transit, walk, or bike to get to their destination. This means that it is harder to social distance as compared to more dispersed density populations such as East and Centreal regions of Ontario. 
+
+- The third wave with the highest spike was due to a variant of Covid which is more contagious spreading 50% more in February 2021. This can be one of the reasons why all the regions are so high in patients during that time. 
+
+- If you focus on the yellow line representing the North region, it shows that there was a sudden increase near the beginning of 2022. We could say that those smaller communities were more exposed to covid-19 during that small increment of time. 
+
+- Some observations that can be made are the adult ICU occupancies have more spikes than pediatrics and that underaged people for ICU occupancy remained at a relative slope. This means that adult ICUs are better prepared for than pediatrics. And there is a vast difference in how COVID-19 affected more adults than underaged people to a more critical health level. The most prominent surges in the counts of adult patients correspond to the major waves of COVID-19, including the spread of Omicron in early 2022. Overall, adults CRCI patients were always above or well above the amount of pediatric CRCI patients.
 
 - When it comes to the total sum of patients in each region, Central Ontario has the most (29.4%) patients whereas the North region has the least (4.3%).
 
