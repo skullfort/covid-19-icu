@@ -1,8 +1,8 @@
 # COVID-19 in Ontario: A Glance from ICUs
 
-Collaborators: Carly Yiao, Helin Kanya, Hardik Gehlot, Mingyao Gu
+Collaborators: Mingyao Gu, Carly Yiao, Helin Kanya, Hardik Gehlot
 
-Latest Update: Feb 14, 2023
+Latest Update: March 23, 2023
 
 ## Introduction
 
